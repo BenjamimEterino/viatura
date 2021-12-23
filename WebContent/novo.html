@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Inserir contacto</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Criar contacto</h1>
+	
+	<form name="formContacto" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="marca" placeholder="Marca" class="caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="fabrico" placeholder="Fabrico" class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="tipo" placeholder="Tipo" class="caixa1"></td>
+			</tr>
+		</table>
+		
+		<button class="botao1" type="button" value="adicionar" onclick="validar()">Adicionar</button>
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
